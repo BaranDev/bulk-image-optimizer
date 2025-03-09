@@ -74,8 +74,8 @@ You can create a standalone executable using PyInstaller:
 pip install pyinstaller
 pyinstaller --onefile --windowed main.py
 
-# Optional parameters:
-# pyinstaller --onefile --windowed --icon="docs\images\icon.ico" --noconsole --add-binary="docs\images\icon.png;docs\images" --clean main.py
+# Optional parameters (add icons to docs\images\ in both .png and .ico types):
+# pyinstaller --name="BulkImageOptimizer" --onefile --windowed --icon="docs\images\icon.ico" --add-data="docs\images\icon.ico;." --add-data="docs\images\icon.png;." --clean --noconsole main.py
 ```
 
 The executable will be created in the `dist` directory.
