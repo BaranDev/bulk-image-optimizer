@@ -2,7 +2,7 @@
   <img src="docs/images/icon.png" alt="Image Optimizer Logo" width="200"/>
 </p>
 
-# Image Optimizer
+# Bulk Image Optimizer
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT) [![Python 3.6+](https://img.shields.io/badge/python-3.6+-blue.svg)](https://www.python.org/downloads/) [![Pillow](https://img.shields.io/badge/Pillow-9.0+-blue.svg)](https://python-pillow.github.io)
 
